@@ -1,5 +1,4 @@
 import { Picture } from "../picture";
-import yara from "../../../../../public/images/yara.png";
 import { motion } from "framer-motion";
 export default function Header() {
   return (
@@ -24,7 +23,7 @@ export default function Header() {
         </div>
         <div className="relative flex flex-row-reverse justify-between gap-2 w-full items-center">
           <div className="flex justify-end -mr-12 -mt-7">
-            <Picture picture={yara} />
+            <Picture />
           </div>
           <p className="absolute -bottom-8 left-0 w-1/5 text-3xl capitalize font-light ">
             I build neat stuff for the internet.

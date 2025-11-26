@@ -7,7 +7,7 @@ import LoadingScreen from "./ui/components/loading";
 export default function Home() {
   return (
     <div className="relative  font-sans flex flex-col items-center justify-center gap-16 ">
-      <Particles className="absolute inset-0 z-[2] opacity-50" quantity={20} />
+      <Particles className="absolute inset-0 z-[2] opacity-50" quantity={50} />
       <main className="flex flex-col  row-start-2  z-[3] md:w-full  ">
         {/* desktop */}
         <Blur className="hidden lg:block" top={250} left={500} />

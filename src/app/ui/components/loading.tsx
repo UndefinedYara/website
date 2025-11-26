@@ -1,19 +1,14 @@
 // components/LoadingScreen.tsx
 import { useEffect, useState } from "react";
-import yara from "../../../../public/images/yara.png";
+import yara from "../../../../public/images/yara.webp";
 
 export default function LoadingScreen() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // simulate image loading or page load
     const img = new Image();
-    img.src = yara.src; // your heavy image
+    img.src = yara.src;
     img.onload = () => setLoading(false);
-    // fallback in case image is cached / fast load
-    const timeout = setTimeout(() => setLoading(false), 3000);
-
-    return () => clearTimeout(timeout);
   }, []);
 
   if (!loading) return null;

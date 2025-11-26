@@ -1,5 +1,4 @@
 import { Picture } from "../picture";
-import yara from "../../../../../public/images/yara.png";
 import { motion } from "framer-motion";
 export default function Header() {
   return (
@@ -27,7 +26,7 @@ export default function Header() {
           </p>
         </div>
         <div className="justify-end col-start-9 col-span-4 hidden md:flex">
-          <Picture picture={yara} />
+          <Picture />
         </div>
       </div>
 
@@ -42,11 +41,11 @@ export default function Header() {
               repeatType: "reverse",
               ease: "easeInOut",
             }}
-            className="text-bold text-5xl text-green-600"
+            className="text-bold text-5xl text-green-700 mb-1"
           >
             •
           </motion.h2>
-          <h2>Open to work. Hit me up.</h2>
+          <p>Open to work. Hit me up.</p>
         </div>
         <div className="flex items-center gap-[2px] font-light -mt-10">
           <motion.h2
