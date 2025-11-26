@@ -18,7 +18,7 @@ export function Contact() {
               repeatType: "reverse",
               ease: "easeInOut",
             }}
-            className="text-bold text-8xl text-green-600 mb-3 ml-1"
+            className="text-bold text-5xl text-green-600 ml-1"
           >
             •
           </motion.h2>
