@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { content } from "../../../../public/content";
 import { Blur } from "./blur";
 import ProjectCard from "./projectcard";

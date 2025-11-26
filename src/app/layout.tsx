@@ -14,27 +14,26 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Yara Khairat",
+  title: "Yara Khairat | Web-centric Software Developer",
   description:
-    "On a mission to shape the future of finance. Entrepreneur, investor, and thought leader building boldly in the crypto space with conviction and clarity.",
+    "Check out my work and do reach out—I'm always up for new challenges!",
   openGraph: {
-    title: "Yara - Entrepreneur, investor, and thought leader",
+    title: "Yara Khairat | Web-centric Software Developer",
     description:
-      "On a mission to shape the future of finance. Entrepreneur, investor, and thought leader building boldly in the crypto space with conviction and clarity.",
-
+      "Check out my work and do reach out—I'm always up for new challenges!",
     type: "website",
     locale: "en_US",
-    url: "",
-    siteName: "Yara Khairat",
+    siteName: "Yara's website ;(",
     images: [
       {
-        url: "",
+        url: "https://undefinedyara.github.io/website/images/opengraph.png",
         width: 1200,
         height: 630,
-        alt: "Yara",
+        alt: "Yara's website ;(",
       },
     ],
   },
+  appleWebApp: { title: "Yara Khairat | Web-centric Software Developer" },
 };
 
 export default function RootLayout({
