@@ -11,7 +11,6 @@ export function NavBar() {
       setCurrentTime(refreshTime());
     }, 1000);
 
-    // The cleanup function is declared like this
     return () => clearInterval(intervalId);
   }, []);
 

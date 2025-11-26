@@ -3,6 +3,7 @@ import Particles from "./ui/components/particles";
 import MobileLayout from "./ui/components/compact/compactlayout";
 import ExpandedLayout from "./ui/components/expanded/expandedlayout";
 import { Blur } from "./ui/components/blur";
+import LoadingScreen from "./ui/components/loading";
 export default function Home() {
   return (
     <div className="relative  font-sans flex flex-col items-center justify-center gap-16 ">
@@ -20,7 +21,7 @@ export default function Home() {
           left={120}
         />
         <Blur className="block lg:hidden" top={1500} left={100} />
-
+        <LoadingScreen />
         <ExpandedLayout />
         <MobileLayout />
       </main>
