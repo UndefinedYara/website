@@ -13,7 +13,7 @@ export default function Journey() {
           <span className="flex w-full text-lg font-semibold">
             ✶ Experience ✶
           </span>
-          <ul className="grid grid-cols-3 gap-y-5 md:gap-x-56 text-xs lg:text-base overflow-x-scroll md:overflow-x-hidden">
+          <ul className="grid grid-cols-3 gap-y-5 md:gap-x-56 text-xs lg:text-base">
             {/* Devency */}
             <li className="flex flex-col gap-1">
               <span className="font-semibold">
@@ -37,7 +37,7 @@ export default function Journey() {
             {/* Self Employed */}
             <li className="flex flex-col gap-1">
               <span className="font-semibold">SELF-EMPLOYED</span>
-              <span>JUN 2023 - PRESENT</span>
+              <span>JUN 2023 - NOW</span>
               <span>WORLDWIDE, EARTH</span>
               <span className="italic">Full Stack Developer</span>
             </li>
