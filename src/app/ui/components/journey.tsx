@@ -37,7 +37,7 @@ export default function Journey() {
             {/* Self Employed */}
             <li className="flex flex-col gap-1">
               <span className="font-semibold">SELF-EMPLOYED</span>
-              <span>JUN 2023 - NOW</span>
+              <span>JUN 2023 - FOREVER</span>
               <span>WORLDWIDE, EARTH</span>
               <span className="italic">Full Stack Developer</span>
             </li>
