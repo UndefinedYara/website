@@ -13,7 +13,7 @@ export default function Header() {
         viewport={{ once: true }}
         className="flex flex-col w-full "
       >
-        <div className="flex flex-col justify-center mt-5">
+        <div className="flex flex-col justify-center ">
           <p className="font-semibold text-2xl">
             Hey, How goes it! it&apos;s me,
           </p>
@@ -22,10 +22,10 @@ export default function Header() {
           </p>
         </div>
         <div className="relative flex flex-row-reverse justify-between gap-2 w-full items-center">
-          <div className="flex justify-end -mr-12 -mt-7">
+          <div className="flex justify-end -mr-14 -mt-6">
             <Picture />
           </div>
-          <p className="absolute -bottom-8 left-0 w-1/5 text-3xl capitalize font-light ">
+          <p className="absolute -bottom-10 left-0 w-1/5 text-4xl capitalize font-light ">
             I build neat stuff for the internet.
           </p>
         </div>

@@ -12,7 +12,7 @@ export const content = [
     description:
       "A guitar's player best friend! Look up chords using the fretboard and find new chord positions in the chord library.",
     scope: "Full-stack",
-    skills: ["NextJS", "NestJS", "Prisma ORM", "Tailwind CSS"],
+    skills: ["NextJS", "Firebase", , "Tailwind CSS"],
     status: "WIP",
   },
   {
