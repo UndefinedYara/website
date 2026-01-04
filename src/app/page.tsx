@@ -16,7 +16,7 @@ export default function Home() {
         {/* mobile */}
         <Blur className="block lg:hidden" top={300} left={-150} />
         <Blur
-          className="block lg:hidden overvlow-x-hidden"
+          className="block lg:hidden overflow-x-hidden"
           top={300}
           left={120}
         />

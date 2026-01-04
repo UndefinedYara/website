@@ -14,6 +14,7 @@ export const content = [
     scope: "Full-stack",
     skills: ["NextJS", "Firebase", "Tailwind CSS"],
     status: "WIP",
+    deployLink: "https://trill-desktop.vercel.app/",
   },
   {
     id: 1,

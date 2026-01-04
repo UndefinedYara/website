@@ -10,6 +10,7 @@ interface Project {
   status?: string;
   skills?: string[];
   link?: string;
+  deployLink?: string;
 }
 
 export default function ProjectCard({ project }: { project: Project }) {
@@ -53,7 +54,7 @@ export default function ProjectCard({ project }: { project: Project }) {
         )}
 
         {/* Footer: date + link */}
-        <div className=" absolute bottom-3 right-5   flex justify-between items-center">
+        <div className=" absolute bottom-3 right-5   flex gap-5 items-center">
           {project.link && (
             <a
               href={project.link}
@@ -61,6 +62,15 @@ export default function ProjectCard({ project }: { project: Project }) {
               className="text-blue-400 hover:underline text-xs"
             >
               View
+            </a>
+          )}
+          {project.deployLink && (
+            <a
+              href={project.deployLink}
+              target="_blank"
+              className="text-blue-400 hover:underline text-xs"
+            >
+              Give it a go!
             </a>
           )}
         </div>
