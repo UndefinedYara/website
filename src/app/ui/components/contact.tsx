@@ -32,7 +32,7 @@ export function Contact() {
 
         <Link
           className="hover:text-primary hover:duration-600"
-          href="/resume.pdf"
+          href="/Yara Khairat-full stack.pdf"
           target="_blank"
         >
           ✶Resume✶
