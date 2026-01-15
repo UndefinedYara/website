@@ -1,5 +1,5 @@
 "use client";
-import Header from "./header";
+import Header from "./hero";
 import Journey from "../journey";
 import { Builds } from "../builds";
 import { Contact } from "../contact";

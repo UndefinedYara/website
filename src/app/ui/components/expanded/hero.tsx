@@ -1,6 +1,6 @@
 import { Picture } from "../picture";
 import { motion } from "framer-motion";
-export default function Header() {
+export default function Hero() {
   return (
     <section
       className="relative flex flex-col items-center container"
