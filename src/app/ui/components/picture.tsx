@@ -13,7 +13,7 @@ export function Picture() {
       transition={{ duration: 1.0, ease: "easeOut" }}
       className="relative w-9/12 lg:w-full h-full rounded-2xl overflow-hidden bg-transparent"
     >
-      <div className="absolute w-full h-full bg-[radial-gradient(ellipse_55%_85%_at_50%_50%,transparent_35%,#0a0a0a_80%)]"></div>
+      <div className="absolute w-full h-full bg-[radial-gradient(ellipse_55%_75%_at_40%_50%,transparent_35%,#0a0a0a_65%)]"></div>
       <Image
         src={yara}
         alt="Yara"
