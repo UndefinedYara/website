@@ -3,7 +3,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import { refreshTime } from "./utils/time";
 
-export function NavBar() {
+export function Header() {
   const [currentTime, setCurrentTime] = useState(refreshTime());
 
   useEffect(() => {

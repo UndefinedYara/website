@@ -10,11 +10,11 @@ export default function Home() {
       <Particles className="absolute inset-0 z-[2] opacity-50" quantity={50} />
       <main className="flex flex-col  row-start-2  z-[3] md:w-full  ">
         {/* desktop */}
-        <Blur className="hidden lg:block" top={250} left={500} />
-        <Blur className="hidden lg:block" top={1000} left={-100} />
+        <Blur className="hidden lg:block" top={250} left={300} />
+        <Blur className="hidden lg:block" top={1000} left={100} />
         <Blur className="hidden lg:block" top={2000} left={900} />
         {/* mobile */}
-        <Blur className="block lg:hidden" top={300} left={-150} />
+        <Blur className="block lg:hidden" top={300} left={-200} />
         <Blur
           className="block lg:hidden overflow-x-hidden"
           top={300}

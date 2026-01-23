@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { NavBar } from "./ui/components/navbar";
+import { Header } from "./ui/components/header";
 
 export const metadata: Metadata = {
   title: "Yara Khairat | Web-centric Software Developer",
@@ -33,7 +33,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="font-manrope antialiased">
-        <NavBar />
+        <Header />
         {children}
       </body>
     </html>
